@@ -1,0 +1,60 @@
+/* header stylist */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-item {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.logo-icon {
+    height: 48px;
+    width: 48px;
+    border: 1px solid;
+    background-image: url();
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/*main banner stylist*/
+.div-banner {
+    border: 1px solid;
+    height: 500px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+}
+
+/*main profile stylist*/
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profile-item {
+    height: 100px;
+    text-align: -webkit-center; 
+}
+
+.profile-image {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
