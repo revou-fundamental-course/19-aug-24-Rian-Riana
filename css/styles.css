@@ -1,60 +1,149 @@
-/* header stylist */
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav-container {
-    display: flex;
-}
-
-.nav-item {
-    border: 1px solid;
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 6px;
-    border-radius: 6px;
-}
-
-.logo-icon {
-    height: 48px;
-    width: 48px;
-    border: 1px solid;
-    background-image: url();
-    background-size: cover;
-    border-radius: 50%;
-}
-
-/*main banner stylist*/
-.div-banner {
-    border: 1px solid;
-    height: 500px;
-    background-image: url();
+/* bagian utama halaman */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+    background-image: url('/path/wp2757874.gif');
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
+/*navigasi*/
+nav {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
 
-/*main profile stylist*/
-.profile-container {
+/* navigasi pada bagian ul*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0a500;
+}
+
+/* halaman section*/
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease;
+}
+
+/*Home section stylist*/
+#home { 
+    padding: 60px; 
+ }
+
+/*Profile section stylist*/
+#work-projects {
+    padding: 50px;
+    opacity: 1;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
 
 }
 
-.profile-item {
+/* Profile container Stylist*/
+.work-container {
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 50px;
+}
+
+.work-item {
     height: 100px;
     text-align: -webkit-center; 
+    opacity: 1;
+    padding: 50px;
 }
 
-.profile-image {
+.work-img1 {
     border: 1px solid;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-image: url();
-    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    background-image: url(/path/reviw\ project.png);
     background-position: center;
+    background-size: cover;
+}
+.work-img2 {
+    border: 1px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    background-image: url(/path/IoT.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.work-img3 {
+    border: 1px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    background-image: url(/path/sosmed.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+ /* profile stylist*/
+ .profile-img {
+
+ }
+
+#profile-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+ }
+#contact { 
+
+ }
+
+
+/* text stylist section */
+section h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+section h2 {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+/* animasi */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }

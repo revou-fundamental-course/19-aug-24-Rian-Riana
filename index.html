@@ -1,97 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
+<!----------------- Tampilan pada title web page dan link style -------------------------->    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css\styles.css">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-
+<!----------------- fitur navigasi -------------------------->
 <body>
     <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work-projects">Work & Projects</a></li>
+            <li><a href="#our-profile">Our Profile</a></li>
+            <li><a href="#message">Message Us</a></li>
+        </ul>
+    </nav>
+
+<!----------------- pages yang tujuan navigasi -------------------------->    
+
+<!----------------- container home -------------------------->
+    <section id="home">
+        <h1>Welcome to My Portofolio</h1>
+    </section>
+
+<!----------------- container profile -------------------------->
+    <section id="work-projects">
         <header>
-            <div class="logo-icon"></div>
+            <h2>"I am Software Engineer who has experience working as a Social Media Marketing Strategist at a farm and contributed to several mini projects as a Frontend Engineer"</h2>    
         </header>
 
+        <div class="work-container">
+            <div class="work-item">
+                <div class="work-img1"></div>
 
-        <section class="nav-container">
-            <a href="#home" class="nav-item">Home</a>
-            <a href="#our-profile" class="nav-item">Our Profile</a>
-            <a href="#achievment" class="nav-item">Achievment</a>
-            <a href="#message" class="nav-item">Message</a>
-        </section>
-    </nav>
-<hr />
-
-
-    <main>
-        <article id="home">
-            <header>
-                <h1>Welcome user to our website</h1>
-            </header>
-                <p>askdnaenfasasnf asn and asn</p>
-                <div class="div-banner"></div>
-        </article>
-<hr />
-
-        <section id="our-profile">
-            <header>
-                <h1>Our Profile</h1>
-            </header>
-
-            <section class="profile-container">
-                <div class="profile-item">
-                    <div class="profile-image"></div>
-
-                    <h2>Software Engineer</h2>
-                </div>
-
-                <div class="profile-item">
-                    <div class="profile-image"></div>
-
-                    <h2>Software Engineer</h2>
-                </div>
-
-                <div class="profile-item">
-                    <div class="profile-image"></div>
-
-                    <h2>Software Engineer</h2>
-                </div>
-            </section>
-        </section>
-
-
-        <section id="achievment" class="form-container">
-            <div>
-
+                <h3>RevoU-Mini Projects</h3>
             </div>
 
-
-            <div>
-
+            <div class="work-item">
+                <div class="work-img2"></div>
+                
+                <h3>IoT-Smart Garden</h3>
             </div>
-        </section>
 
-        <section id="message" class="form-container">
-            <form>
-
-            </form>
-
-
-            <div>
-
+            <div class="work-item">
+                <div class="work-img3"></div>
+                
+                <h3>Social Media Marketing</h3>
             </div>
-        </section>
-    </main>
-<hr />
+        </div>
+    </section>
 
-    <footer>
+<!----------------- container profile -------------------------->
+    <section id="profile-container">
+        <div class="profile-img"></div>
+        <div class="profile-item">
+            <h2>About Me</h2>
+        </div>
+    </section>
 
-    </footer>
+<!----------------- container message -------------------------->
+    <section id="message">
+        <h1>Message Us</h1>
+    </section>
+    
+<!----------------- get jscript -------------------------->
+    <script src="/js/script.js"></script>
 </body>
-
-
 </html>
