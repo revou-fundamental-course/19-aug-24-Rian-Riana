@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     transition: background-color 0.5s ease;
-    background-image: url('/path/wp2757874.gif');
+    background-image: url('path/wp2757874.gif');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -89,7 +89,7 @@ section {
     height: 150px;
     width: 150px;
     border-radius: 15%;
-    background-image: url(/path/reviw\ project.png);
+    background-image: url(path/reviw\ project.png);
     background-position: center;
     background-size: cover;
 }
@@ -98,7 +98,7 @@ section {
     height: 150px;
     width: 150px;
     border-radius: 15%;
-    background-image: url(/path/IoT.jpeg);
+    background-image: url(path/IoT.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -107,7 +107,7 @@ section {
     height: 150px;
     width: 150px;
     border-radius: 15%;
-    background-image: url(/path/sosmed.jpeg);
+    background-image: url(path/sosmed.jpeg);
     background-position: center;
     background-size: cover;
 }
