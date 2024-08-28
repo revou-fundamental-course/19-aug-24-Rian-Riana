@@ -114,10 +114,6 @@ section {
 
 
  /* profile stylist*/
- .profile-img {
-
- }
-
 #profile-container { 
     opacity: 1;
     display: flex;
@@ -145,6 +141,7 @@ section h2 {
     text-align: center;
     animation: fadeIn 1s ease-in-out;
 }
+
 /* animasi */
 @keyframes fadeIn {
     from { opacity: 0; }
