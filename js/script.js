@@ -3,6 +3,7 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
 
     //meambahkan perintah ketika click
     anchor.addEventListener('click', function(e) {
+        e.defaultPrevented()
         //membuat opacity menjadi 0 untuk semua section
         document.querySelectorAll('section').forEach(section => {
             section.style.opacity = '0';
